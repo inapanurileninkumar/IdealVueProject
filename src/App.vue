@@ -1,19 +1,24 @@
+/* eslint-disable indent */
+/* eslint-disable indent */
+/* eslint-disable quotes */
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <ideal-component />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+/* eslint-disable */
+import IdealComponent from "./components/utils/IdealComponent.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    IdealComponent,
+  },
+};
+/* eslint-enable */
 </script>
 
 <style>
